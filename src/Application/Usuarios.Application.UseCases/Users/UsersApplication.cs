@@ -42,10 +42,10 @@ namespace Usuarios.Application.UseCases.Users
                 response.IsSuccess = true;
                 response.Message = "Autenticación Exitosa!!!";
             }
-            catch (InvalidOperationException)
+            catch (InvalidOperationException ex)
             {
                 response.IsSuccess = true;
-                response.Message = "Usuario no existe";
+                response.Message = ex.Message;
             }
             catch (Exception e)
             {

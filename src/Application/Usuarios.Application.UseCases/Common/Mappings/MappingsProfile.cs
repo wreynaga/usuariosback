@@ -14,6 +14,7 @@ namespace Usuarios.Application.UseCases.Common.Mappings
         public MappingsProfile()
         {
             CreateMap<User, UserDto>().ReverseMap();
+            CreateMap<Usuario, UsuarioDto>().ReverseMap();
         }
     }
 }

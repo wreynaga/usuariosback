@@ -17,7 +17,7 @@ namespace Usuarios.Infrastructure.Persistence.Contexts
         public DapperContext(IConfiguration configuration)
         {
             _configuration = configuration;
-            _connectionString = configuration.GetConnectionString("NorthwindConnection");
+            _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
 
         public IDbConnection CreateConnection() => new SqlConnection(_connectionString);
