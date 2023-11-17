@@ -37,6 +37,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usuarios.Transversal.Common
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usuarios.Transversal.Logging", "src\Transversal\Usuarios.Transversal.Logging\Usuarios.Transversal.Logging.csproj", "{719BC9A9-1908-4061-BBC0-6EB99004A496}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{2EC5D93E-A4F1-477D-A2AD-5D2D0BFBFC35}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\Administrator\Desktop\script.sql = ..\..\..\Users\Administrator\Desktop\script.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -98,6 +103,7 @@ Global
 		{292927B0-EFDF-4F42-ADF5-26C9DAC65939} = {EABB7A64-99C6-49AE-A5C6-08C7A12120F2}
 		{86353906-5544-4468-8131-C265EA2E894B} = {4AF594E8-9499-4102-BA37-EA2E46D9432C}
 		{719BC9A9-1908-4061-BBC0-6EB99004A496} = {4AF594E8-9499-4102-BA37-EA2E46D9432C}
+		{2EC5D93E-A4F1-477D-A2AD-5D2D0BFBFC35} = {ED05E50A-8A6C-4418-8B3F-AE8626F3C7CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5547791-DDC9-4A01-8853-82DA0767891D}
